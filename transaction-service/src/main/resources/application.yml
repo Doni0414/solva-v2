@@ -9,6 +9,8 @@ spring:
       - transaction
   jpa:
     show-sql: true
+  profiles:
+    active: test
 logging:
   level:
     org:
