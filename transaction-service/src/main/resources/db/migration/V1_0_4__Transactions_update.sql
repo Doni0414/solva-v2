@@ -1,0 +1,1 @@
+alter table transaction.t_transaction add column monthly_limit_id int constraint transaction_monthly_limit_fk references transaction.t_monthly_limit(id);

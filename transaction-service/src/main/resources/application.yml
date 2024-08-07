@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/solva_v2_db
+    username: postgres
+    password: wkiscool
+  flyway:
+    schemas:
+      - public
+      - transaction
+  jpa:
+    show-sql: true
+logging:
+  level:
+    org:
+      flywaydb: DEBUG
+openexchangerates:
+  api-key: 59b595b3b672486f99bace0b0b3f70b6
+springdoc:
+  api-docs:
+    path: /api-docs
